@@ -1,4 +1,4 @@
-#include "bruteforce.cpp"
+#include "bruteforce.h"
 #include <iostream>
 
 int main()
