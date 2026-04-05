@@ -1,8 +1,7 @@
 #include "bruteforce.h"
-#include <iostream>
 
-void GEMM(const float *A, const float *B, float *C, float alpha, float beta,
-          int n, int k, int m)
+void bruteforceGEMM(const float *A, const float *B, float *C, float alpha, float beta,
+                    int n, int k, int m)
 {
   float AB[n][m];
 
