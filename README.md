@@ -10,6 +10,8 @@ $C \gets \alpha AB + \beta C$.
 
 While this is cumbersome, it nicely generalizes many other linear algebra operations.
 
-\begin{itemize}
-\item{If $\alpha = 0$, this is scalar multiplication on $C$.}
-\end{itermize}
+- If $\alpha = 0$, this is scalar multiplication on $C$.
+- If $\alpha = 1, \beta = 0$, this is matrix multiplication between $A$ and $B$.
+- If $\alpha, \beta = 0$ and $B = I^k$, this is matrix addition between $A$ and $C$.
+
+So GEMM provides a very general operation for many matrix operations.
