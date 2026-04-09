@@ -12,6 +12,6 @@ While this is cumbersome, it nicely generalizes many other linear algebra operat
 
 - If $\alpha = 0$, this is scalar multiplication on $C$.
 - If $\alpha = 1, \beta = 0$, this is matrix multiplication between $A$ and $B$.
-- If $\alpha, \beta = 0$ and $B = I^k$, this is matrix addition between $A$ and $C$.
+- If $\alpha, \beta = 1$, and $B = I^k$, this is matrix addition between $A$ and $C$.
 
 So GEMM provides a very general operation for many matrix operations.
